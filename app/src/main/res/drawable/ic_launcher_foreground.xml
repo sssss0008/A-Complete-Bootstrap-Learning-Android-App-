@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Rounded Squircle Badge (centered around 54, 54, size 58x58) -->
+    <path
+        android:pathData="M37,25 L71,25 C78,25 83,30 83,37 L83,71 C83,78 78,83 71,83 L37,83 C30,83 25,78 25,71 L25,37 C25,30 30,25 37,25 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="25"
+                android:startY="25"
+                android:endX="83"
+                android:endY="83"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#9065DD" />
+                <item android:offset="1.0" android:color="#6610F2" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle border highlight -->
+    <path
+        android:strokeColor="#C4B5FD"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M37,25 L71,25 C78,25 83,30 83,37 L83,71 C83,78 78,83 71,83 L37,83 C30,83 25,78 25,71 L25,37 C25,30 30,25 37,25 Z" />
+
+    <!-- Distinctive Bootstrap 'B' glyph in Pure White -->
+    <!-- Stem and two counter loops -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,36 L55.5,36 C61.2,36 64.5,38.8 64.5,43 C64.5,46.2 62.4,48.5 59.2,49.2 C63.2,50 65.5,52.8 65.5,57 C65.5,62.2 61.5,65 55.2,65 L43,65 Z M49,41 L49,48 L54.5,48 C57.5,48 59,46.4 59,44.4 C59,42.4 57.5,41 54.5,41 Z M49,53 L49,60 L55,60 C58.2,60 59.8,58.4 59.8,56.4 C59.8,54.4 58.2,53 55,53 Z" />
+</vector>
